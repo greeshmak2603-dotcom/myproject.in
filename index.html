@@ -1,0 +1,33 @@
+<html>
+<body>
+<canvas id="comp0" width="200" height="150" style="border:2px solid black;"></canvas>
+<canvas id="comp1" width="200" height="150" style="border:2px solid black;"></canvas>
+<canvas id="comp2" width="200" height="150" style="border:2px solid black;"></canvas>
+<canvas id="comp3" width="200" height="150" style="border:2px solid black;"></canvas>
+<canvas id="comp4" width="200" height="150" style="border:2px solid black;"></canvas>
+<canvas id="comp5" width="200" height="150" style="border:2px solid black;"></canvas>
+<canvas id="comp6" width="200" height="150" style="border:2px solid black;"></canvas>
+<canvas id="comp7" width="200" height="150" style="border:2px solid black;"></canvas>
+<canvas id="comp8" width="200" height="150" style="border:2px solid black;"></canvas>
+<canvas id="comp9" width="200" height="150" style="border:2px solid black;"></canvas>
+<canvas id="comp10" width="200" height="150" style="border:2px solid black;"></canvas>
+<canvas id="comp11" width="200" height="150" style="border:2px solid black;"></canvas>
+<script>
+var gco=['source-over','source-in','source-out','source-atop','destination-over','destination-in','destination-out','destination-atop','lighter','darker','copy','xor'];
+for(i=0;i<gco.length;i++)
+{
+var canvas=document.getElementById('comp'+i);
+var ctx=canvas.getContext('2d');
+ctx.fillStyle="red";
+ctx.beginPath();
+ctx.arc(75,45,35,0,2*Math.PI);
+ctx.fill();
+ctx.globalCompositeOperation=gco[i];
+ctx.fillStyle="blue";
+ctx.beginPath();
+ctx.arc(105,75,35,0,2*Math.PI);
+ctx.fill();
+}
+</script>
+</body>
+</html>
