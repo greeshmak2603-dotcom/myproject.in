@@ -393,5 +393,8 @@ h1.h1-abt{
 .index-abt{
     text-align: center;
 }
+.index-abt h1{
+    text-align : center !important
 }
+
 
