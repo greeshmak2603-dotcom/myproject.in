@@ -352,9 +352,7 @@ a.navbar-brand:hover {
 }
 .carousel-item img {
     height: 100%;
-    width: auto !important;
-    background-position: right;
-    max-width: 100% !important;
+    
 }
 .navbar {
     background: black !important;
