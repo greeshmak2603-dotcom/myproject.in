@@ -63,7 +63,7 @@ font-family: "Caveat", cursive;
 }
 .index-owl{
     padding: 60px 0px;
-    background-image: url(../Web/images/background.jpg);
+    background-image: url(https://greeshmak2603-dotcom.github.io/myproject.in/images/background.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -394,3 +394,4 @@ h1.h1-abt{
     text-align: center;
 }
 }
+
