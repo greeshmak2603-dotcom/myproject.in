@@ -345,7 +345,14 @@ a.navbar-brand:hover {
     color: crimson;
 }
 
-
+.owl-nav button{
+    background: transparent !important;
+    background:none !important;
+    box-shadow: none !important;
+}
+.owl-nav button:hover{
+    background: transparent !important;
+}
 
 @media(max-width: 500px){
     .navbar-collapse {
@@ -401,6 +408,7 @@ h1.h1-abt{
     text-align : center !important
 }
 }
+
 
 
 
