@@ -87,6 +87,10 @@ font-family: "Caveat", cursive;
 .owl-cl{
     padding: 0px 20px;
 }
+..owl-theme .owl-nav [class*=owl-]:hover {
+    background: unset !important;
+  
+}
 .index-dish{
     padding: 100px 0px;
     background: #000000a6;
@@ -396,6 +400,7 @@ h1.h1-abt{
 .index-abt h1{
     text-align : center !important
 }
+
 
 
 
