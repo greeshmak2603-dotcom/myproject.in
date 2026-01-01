@@ -351,7 +351,7 @@ a.navbar-brand:hover {
     margin-top: 0px;
 }
 .carousel-item img {
-    height: 100%;
+    height: auto;
     
 }
 .navbar {
@@ -381,3 +381,4 @@ a.navbar-brand:hover {
 }
 
 }
+
