@@ -19,15 +19,25 @@
 
 <header>
 <nav class="navbar navbar-expand-lg navbar-light">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">GK Kitchen</a>
-    <div class="navbar-nav">
-      <a class="nav-link" href="index.html">Home</a>
-      <a class="nav-link active" href="about-us.html">About Us</a>
-      <a class="nav-link" href="our-dishes.html">Our Dishes</a>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">GK Kitcken</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
      
-      <a class="nav-link" href="testimonials.html">Reviews</a>
-       <a class="nav-link" href="contact.html">Contact</a>
+        
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link active" href="about-us.html">About Us</a></li>
+            <li><a class="nav-link" href="our-dishes.html">Our Dishes</a></li>
+            <li><a class="nav-link" href="testimonials.html">Reviews</a></li>
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+          
+
+      
+      </ul>
+     
     </div>
   </div>
 </nav>
@@ -193,7 +203,19 @@ $(document).ready(function () {
     autoplay: true,
     autoplayTimeout: 3000,   // time between slides (ms)
     autoplayHoverPause: true,
-    smartSpeed: 200
+    smartSpeed: 200,
+    pagination : false,
+    responsive: {
+      0: {
+        items: 1   // mobile
+      },
+      600: {
+        items: 2   // tablet
+      },
+      1000: {
+        items: 3   // desktop
+      }
+    }
   });
 });
 </script>
