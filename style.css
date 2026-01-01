@@ -379,6 +379,18 @@ a.navbar-brand:hover {
 .owl-dots{
     display: none;
 }
-
+.abtus1 img{
+    display: block;
+        margin: auto;
+    margin-bottom: 10px;
 }
-
+.abtus1 p{
+    text-align: center;
+}
+h1.h1-abt{
+    text-align: center !important;
+}
+.index-abt{
+    text-align: center;
+}
+}
