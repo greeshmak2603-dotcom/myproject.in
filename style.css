@@ -114,7 +114,7 @@ font-family: "Caveat", cursive;
     padding-top: 10px;
     text-align: center;
 }
-.index-owl{position: relative;    z-index: -10;}
+.index-owl{position: relative;    z-index: 1;}
 .index-owl::before{
     position: absolute;
     background-color: #0000007a;
@@ -396,5 +396,6 @@ h1.h1-abt{
 .index-abt h1{
     text-align : center !important
 }
+
 
 
