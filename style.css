@@ -340,3 +340,46 @@ article{
 a.navbar-brand:hover {
     color: crimson;
 }
+
+
+
+@media(max-width: 500px){
+    .navbar-collapse {
+    flex-grow: 1 !important;
+    flex-basis: 100% !important;}
+    article {
+    margin-top: 0px;
+}
+.carousel-item img {
+    height: 100%;
+    width: auto !important;
+    background-position: right;
+    max-width: 100% !important;
+}
+.navbar {
+    background: black !important;
+    padding: 0px;
+}
+.navbar-toggler{
+    background-color: white !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+     background: unset;
+    color: #ff0000 !important;
+    border-radius: 20px;
+}
+.index-abt img {
+    margin-top: 40px;
+}
+.index-dish .row {
+    padding: 0px 0px;
+}
+.dish-div {
+    
+    margin-bottom: 30px;
+}
+.owl-dots{
+    display: none;
+}
+
+}
